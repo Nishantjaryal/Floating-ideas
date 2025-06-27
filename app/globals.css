@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  color: rgb(251, 158, 28);
+}
+
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+ }
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #6727dd #322a2a;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #322a2a;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #6727dd;
+  border-radius: 10px;
+  border: 3px none #201d1d;
+}
+
+.hiddenScroll::-webkit-scrollbar {
+  display:none;
+}
