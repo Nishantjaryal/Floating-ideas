@@ -1,4 +1,4 @@
-# 🧠 Floating Ideas
+# ✨ Floating Ideas
 
 **Floating Ideas** is a sleek and minimal note-taking application built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. Designed for clarity and speed, it helps you capture and manage your thoughts with ease.
 
